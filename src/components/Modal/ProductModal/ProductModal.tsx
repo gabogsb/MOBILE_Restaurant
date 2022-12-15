@@ -35,7 +35,7 @@ export function ProductModal({ visible, onClose, product, onAddToCart }: Product
 
       <Image
         source={{
-          uri: `http://192.168.0.2:3001/uploads/${product.imagePath}`,
+          uri: `uri/uploads/${product.imagePath}`,
         }}
 
       >
